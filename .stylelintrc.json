@@ -1,0 +1,6 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-order"],
+  "ignoreFiles": ["**/*.tsx"],
+  "rules": { "order/properties-alphabetical-order": true }
+}
