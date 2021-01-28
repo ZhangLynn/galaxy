@@ -17,9 +17,6 @@ module.exports = {
 				include: path.resolve(__dirname, '../src')
 			}
 		)
-		defaultConfig.module.rules.map(rule => {
-			console.log('<----' + JSON.stringify(rule) + '---->')
-		})
 
 		return defaultConfig
 	},
